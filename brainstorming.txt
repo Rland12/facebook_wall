@@ -1,13 +1,22 @@
 1) What selector are you going to use for the click event on the button?
 
+-I am selecting the button id #post-btn.
 
 2) What selector are you going to use to add the posts to the page?
 
+-I am selecting the div id #wall.
 
 3) What selector are you going to use to get the user's input in the click event handler?
 
+-I am selecting the input id #message.
 
 4) What function are you going to use to get the user's input in the click event handler?
 
+	$("#post-btn").click(function(){
+		var text = $("#message").val();
+		$("#wall").text(text);
+	});
 
 5) What function are you going to use to add the HTML to the page (pay special attention to the order that new posts should appear in)?
+
+ I used .append
