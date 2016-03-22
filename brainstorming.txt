@@ -19,4 +19,4 @@
 
 5) What function are you going to use to add the HTML to the page (pay special attention to the order that new posts should appear in)?
 
- I used .append
+ I used .prepend
